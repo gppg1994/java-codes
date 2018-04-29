@@ -1,3 +1,12 @@
+/*
+This code takes up names of 200 cities from wikipedia
+and using each city name sends a Http request to openwhether.org
+and extracts the temperature, pressure and humidity of that city
+obtained in the form of XML and saves the data in an excel sheet
+*/
+/*
+The entire code implements principles of automation
+*/
 import java.net.*;
 import java.io.*;
 import java.io.StringReader;
